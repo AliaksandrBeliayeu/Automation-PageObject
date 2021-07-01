@@ -1,0 +1,24 @@
+1625170764358	geckodriver	INFO	Listening on 127.0.0.1:52497
+1625170767378	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\MERIAD~1\\AppData\\Local\\Temp\\rust_mozprofilevobkj2"
+1625170768679	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Meriadoc Brandybuck\\AppData\\Local\\Temp\\rust_mozprofilevobkj2\\search.json.mozlz4", (void 0)))
+1625170771741	Marionette	INFO	Listening on port 52505
+1625170772228	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/, line 753: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/accounts/login/, line 624: ReferenceError: oscar is not defined
+1625170774042	Marionette	INFO	Stopped listening on port 52505
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625170792664	geckodriver	INFO	Listening on 127.0.0.1:52549
+1625170795711	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\MERIAD~1\\AppData\\Local\\Temp\\rust_mozprofileKO1g27"
+1625170796307	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Meriadoc Brandybuck\\AppData\\Local\\Temp\\rust_mozprofileKO1g27\\search.json.mozlz4", (void 0)))
+1625170798019	Marionette	INFO	Listening on port 52557
+1625170798382	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/, line 753: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/accounts/login/, line 624: ReferenceError: oscar is not defined
+1625170800050	Marionette	INFO	Stopped listening on port 52557
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
