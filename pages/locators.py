@@ -19,3 +19,6 @@ class ProductsPageLocators():
     MAIN_PRODUCT_PRICE = (By.CSS_SELECTOR, ".col-sm-6.product_main>.price_color")
     ALERT_PRODUCT_ADDED = (By.CSS_SELECTOR, "#messages>:nth-child(1)>:nth-child(2)>strong")
     ALERT_CURRENT_PRICE = (By.CSS_SELECTOR, ".alert-info .alertinner strong")
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
