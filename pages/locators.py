@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 
+
 class MainPageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
 
@@ -22,7 +23,7 @@ class ProductsPageLocators():
 class BasketPageLocators():
     BASKET_EMPTY_LABEL = (By.CSS_SELECTOR, "#content_inner>p")
 
-
 class BasePageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
     BASKET_LINK = (By.CSS_SELECTOR, ".basket-mini>:nth-child(2)>a")
+    USER_ICON = (By.CSS_SELECTOR, ".icon-user")

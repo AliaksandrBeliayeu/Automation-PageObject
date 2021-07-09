@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from .locators import ProductsPageLocators
 import time
 
+
 class ProductsPage(BasePage):
     def adding_product_to_cart(self):
         book = self.browser.find_element(*ProductsPageLocators.MAIN_PRODUCT_BOOK)
@@ -11,7 +12,7 @@ class ProductsPage(BasePage):
         price_text = price.text
         adding_button = self.browser.find_element(*ProductsPageLocators.ADD_TO_BASKET)
         adding_button.click()
-        self.solve_quiz_and_get_code()
+        #self.solve_quiz_and_get_code() # Can be enabled to pass tests with PROMO in URLS of the links used
         alert_book = self.browser.find_element(*ProductsPageLocators.ALERT_PRODUCT_ADDED)
         alert_book_text = alert_book.text
         alert_price = self.browser.find_element(*ProductsPageLocators.ALERT_CURRENT_PRICE)
@@ -47,3 +48,5 @@ class ProductsPage(BasePage):
         adding_button.click()
         assert self.is_disappeared(*ProductsPageLocators.ALERT_PRODUCT_ADDED), \
             "Success message is present, but should not be"
+
+
