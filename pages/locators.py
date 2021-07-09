@@ -1,6 +1,5 @@
 from selenium.webdriver.common.by import By
 
-
 class MainPageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
 
@@ -20,5 +19,10 @@ class ProductsPageLocators():
     ALERT_PRODUCT_ADDED = (By.CSS_SELECTOR, "#messages>:nth-child(1)>:nth-child(2)>strong")
     ALERT_CURRENT_PRICE = (By.CSS_SELECTOR, ".alert-info .alertinner strong")
 
+class BasketPageLocators():
+    BASKET_EMPTY_LABEL = (By.CSS_SELECTOR, "#content_inner>p")
+
+
 class BasePageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    BASKET_LINK = (By.CSS_SELECTOR, ".basket-mini>:nth-child(2)>a")
